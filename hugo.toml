@@ -2,3 +2,4 @@ baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'ΟΦΙΣ'
 theme = "mainroad"
+publishDir = "docs"
