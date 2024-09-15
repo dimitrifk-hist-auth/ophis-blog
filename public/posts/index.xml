@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on ΟΦΙΣ</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on ΟΦΙΣ</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 16 Sep 2024 01:23:27 +0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First Post</title>
+      <link>http://localhost:1313/posts/first-post/</link>
+      <pubDate>Mon, 16 Sep 2024 01:23:27 +0300</pubDate>
+      <guid>http://localhost:1313/posts/first-post/</guid>
+      <description>&lt;h1 id=&#34;breaking-news-tech-innovations-in-2024&#34;&gt;Breaking News: Tech Innovations in 2024&lt;/h1&gt;&#xA;&lt;p&gt;Technology is advancing at an unprecedented rate in 2024. In today&amp;rsquo;s article, we&amp;rsquo;ll cover some of the biggest innovations in the tech world.&lt;/p&gt;&#xA;&lt;h2 id=&#34;artificial-intelligence&#34;&gt;Artificial Intelligence&lt;/h2&gt;&#xA;&lt;p&gt;One of the most notable trends this year is the rise of &lt;strong&gt;AI-driven tools&lt;/strong&gt; that are revolutionizing industries from healthcare to finance.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;AI-based diagnostics are improving patient outcomes.&lt;/li&gt;&#xA;&lt;li&gt;Machine learning is driving automation in various sectors.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://your-image-link.com/ai-image.jpg&#34; alt=&#34;AI Revolution&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;quantum-computing&#34;&gt;Quantum Computing&lt;/h2&gt;&#xA;&lt;p&gt;Quantum computing has moved beyond theory, with companies like IBM and Google leading the charge in practical applications.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
