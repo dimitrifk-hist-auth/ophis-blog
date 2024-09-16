@@ -55,7 +55,7 @@ body {
 .container {
 	position: relative;
 	width: 100%;
-	max-width: 1080px;
+	max-width: 95%;
 	margin: 0 auto;
 }
 
@@ -380,9 +380,17 @@ select {
 .header {
 	background: #fff;
 }
-
+.container .header__container {
+	max-height: 60px;
+}
 .logo {
 	padding: 25px;
+	max-height: inherit;
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+	gap: 10px;
 }
 
 .logo__link {
@@ -407,7 +415,7 @@ select {
 }
 
 .logo--mixed .logo__img {
-	max-width: 128px;
+	max-width: 70px;
 	max-height: 128px;
 }
 
@@ -416,11 +424,12 @@ select {
 }
 
 .logo__title {
+	font-family: "Times New Roman", serif;
 	font-size: 32px;
 	font-size: 2rem;
 	font-weight: 700;
 	line-height: 1;
-	color: #000;
+	color: #4A180C;
 }
 
 .logo__tagline {
@@ -436,9 +445,9 @@ select {
 }
 
 .divider {
-	height: 5px;
+	height: 3px;
 	margin: 0;
-	background: #e22d30;
+	background: #4A180C;
 	border: 0;
 }
 
@@ -1316,3 +1325,5 @@ textarea {
 		font-size: .6875rem;
 	}
 }
+
+/* Custom Code added by me - not of the theme*/
