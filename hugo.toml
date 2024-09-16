@@ -3,3 +3,33 @@ languageCode = 'en-us'
 title = 'ΟΦΙΣ'
 theme = "mainroad"
 publishDir = "docs"
+
+[Params]
+  subtitle = "Ομαδα Φοιτητ@ν ΙΣτοριας" # Subtitle of your site. Used in site header
+  description = "H ΟΦΙΣ είναι μια φοιτητική ομάδα του Τμήματος Ιστορίας και Αρχαιολογίας του Αριστοτελείου Πανεπιστημίου Θεσσαλονίκης (ΑΠΘ). Το ιστολόγιό μας περιλαμβάνει συζητήσεις, άρθρα και γνώμες πάνω σε ιστορικά θέματα, με στόχο να καλλιεργήσουμε ένα βαθύτερο ενδιαφέρον για την ιστορία και να δημιουργήσουμε ένα χώρο για τις φωνές και τις ιδέες των φοιτητών." # Site description. Used in meta description
+  #copyright = "ΟΦΙΣ" # copyright holder, otherwise will use site title
+  opengraph = true # Enable OpenGraph if true
+  readmore = false # Show "Read more" button in list if true
+  authorbox = true # Show authorbox at bottom of pages if true
+  toc = true # Enable Table of Contents
+  post_navigation = true # Show post navigation at bottom of pages if true
+  # post_meta = ["date", "categories"] # Order of post meta information. Use ["none"] to turn off completely.
+  postSections = ["post"] # the section pages to show on home page and the "Recent articles" widget
+  #postSections = ["blog", "news"] # alternative that shows more than one section's pages
+  #dateformat = "23-01-2006" # change the format of dates
+
+[Params.sidebar]
+  home = "right" # Configure layout for home page
+  list = "left"  # Configure layout for list pages
+  single = false # Configure layout for single pages
+  # Enable widgets in given order
+  widgets = ["search", "recent", "categories", "taglist", "social"]
+
+[Params.widgets]
+  recent_num = 5 # Set the number of articles in the "Recent articles" widget
+  tags_counter = false # Enable counter for each tag in "Tags" widget (disabled by default)
+
+[Params.widgets.social]
+  # Enable parts of social widget
+  facebook = "61559781037278"
+  instagram = "ophis.hist"
