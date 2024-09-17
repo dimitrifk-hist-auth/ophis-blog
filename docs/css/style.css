@@ -134,7 +134,7 @@ textarea {
 
 .btn:hover {
 	color: #fff;
-	background: #e22d30;
+	background: #FFE8CF;
 }
 
 /* Animation */
@@ -193,7 +193,7 @@ a {
 }
 
 a:hover {
-	color: #e22d30;
+	color: #FFE8CF;
 }
 
 hr {
@@ -266,7 +266,7 @@ code {
 
 code {
 	padding: 0 5px;
-	color: #c33;
+	color: #4A180C;
 }
 
 pre {
@@ -416,14 +416,16 @@ select {
 }
 
 .logo__title {
+	font-family: 'Times New Roman', Times, serif;
 	font-size: 32px;
 	font-size: 2rem;
 	font-weight: 700;
 	line-height: 1;
-	color: #000;
+	color: #4a180c;
 }
 
 .logo__tagline {
+	font-family: 'Times New Roman', Times, serif;
 	display: inline-block;
 	padding-top: 10px;
 	margin-top: 10px;
@@ -431,14 +433,14 @@ select {
 	font-size: .875rem;
 	font-weight: 700;
 	line-height: 1;
-	color: #e22d30;
+	color: #4a180c;
 	border-top: 1px solid #ebebeb;
 }
 
 .divider {
 	height: 5px;
 	margin: 0;
-	background: #e22d30;
+	background: #4a180c;
 	border: 0;
 }
 
@@ -493,11 +495,11 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 
 .menu__list {
 	list-style: none;
-	background: #2a2a2a;
+	background: #4a180c;
 }
 
 .menu__item:hover {
-	background: #e22d30;
+	background: #FFE8CF;
 }
 
 .menu__item:first-child {
@@ -518,7 +520,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 }
 
 .menu__link:hover {
-	color: #fff;
+	color: #4A180C;
 }
 
 .js .menu__list {
@@ -546,7 +548,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 
 @media screen and (min-width: 767px) {
 	.menu {
-		border-bottom: 5px solid #e22d30;
+		
 	}
 
 	.menu__btn {
@@ -600,7 +602,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 }
 
 .meta a:hover {
-	color: #e22d30;
+	color: #FFE8CF;
 }
 
 .meta__item {
@@ -663,7 +665,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 .content a:hover,
 .warning a:hover,
 .authorbox__description a:hover {
-	color: #e22d30;
+	color: #FFE8CF;
 	text-decoration: underline;
 }
 
@@ -1169,18 +1171,9 @@ textarea {
 	justify-content: space-between;
 }
 
-.footer__copyright {
-
-	order: 1;
-}
-
-.footer__social {
-
-	order: 3;
-}
 .footer__links {
-	-webkit-order: 2;
-	order: 2;
+	-webkit-order: 1;
+	order: 1;
 }
 
 .footer a {
@@ -1225,7 +1218,6 @@ textarea {
 
 	.footer__copyright {
 		text-align: center;
-		order: 1;
 	}
 }
 

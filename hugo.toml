@@ -19,7 +19,7 @@ publishDir = "docs"
   #dateformat = "23-01-2006" # change the format of dates
 
 [Params.logo]
-  image = "/image/logo-landing-page.png"
+  image = "/img/logo-landing-page.png"
 
 [Params.sidebar]
   home = "right" # Configure layout for home page
