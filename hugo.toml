@@ -18,6 +18,9 @@ publishDir = "docs"
   #postSections = ["blog", "news"] # alternative that shows more than one section's pages
   #dateformat = "23-01-2006" # change the format of dates
 
+[Params.logo]
+  image = "/image/logo-landing-page.png"
+
 [Params.sidebar]
   home = "right" # Configure layout for home page
   list = "left"  # Configure layout for list pages
