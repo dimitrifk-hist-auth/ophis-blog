@@ -1169,9 +1169,18 @@ textarea {
 	justify-content: space-between;
 }
 
-.footer__links {
-	-webkit-order: 1;
+.footer__copyright {
+
 	order: 1;
+}
+
+.footer__social {
+
+	order: 3;
+}
+.footer__links {
+	-webkit-order: 2;
+	order: 2;
 }
 
 .footer a {
@@ -1216,6 +1225,7 @@ textarea {
 
 	.footer__copyright {
 		text-align: center;
+		order: 1;
 	}
 }
 

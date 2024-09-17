@@ -34,6 +34,9 @@ publishDir = "docs"
   facebook = "61559781037278"
   instagram = "ophis.hist"
 
+[Params.social]
+    facebook = "https://facebook.com/61559781037278"
+    instagram = "https://instagram.com/ophis.hist"
 
 [menu]
   [[menu.main]]
@@ -62,6 +65,36 @@ publishDir = "docs"
     weight = 5
 
   [[menu.main]]
+    name = "ΕΠΙΚΟΙΝΩΝΙΑ"
+    url = "/"
+    weight = 6
+
+[[menu.footer]]
+    name = "ΣΧΕΤΙΚΑ ΜΕ ΕΜΑΣ"
+    url = "/"
+    weight = 1
+
+  [[menu.footer]]
+    name = "ΕΡΕΥΝΑ"
+    url = "/"
+    weight = 2
+
+  [[menu.footer]]
+    name = "ΕΠΙΚΑΙΡΟΤΗΤΑ"
+    url = "/"
+    weight = 3
+
+  [[menu.footer]]
+    name = "ΚΡΙΤΙΚΕΣ"
+    url = "/"
+    weight = 4
+
+  [[menu.footer]]
+    name = "ΣΦΗΝΑΚΙΑ ΙΣΤΟΡΙΑΣ"
+    url = "/"
+    weight = 5
+
+  [[menu.footer]]
     name = "ΕΠΙΚΟΙΝΩΝΙΑ"
     url = "/"
     weight = 6
