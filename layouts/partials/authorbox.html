@@ -1,24 +1,37 @@
 {{- if .Param "authorbox" }}
 <div class="authorbox clearfix">
-	{{- if and (not .Site.Author.avatar) (not .Site.Author.name) (not .Site.Author.bio) }}
-	<p class="authorbox__warning">
-		<strong>WARNING:</strong> Authorbox is activated, but [Author] parameters are not specified.
-	</p>
+	{{- if and (not .Params.authors) }}
+		<p class="authorbox__warning">
+			<strong>WARNING:</strong> Authorbox is activated, but [Author] parameters are not specified.
+		</p>
 	{{- end }}
-	{{- with .Site.Author.avatar }}
-	<figure class="authorbox__avatar">
-		<img alt="{{ $.Site.Author.name }} avatar" src="{{ $.Site.Author.avatar | relURL }}" class="avatar" height="90" width="90">
-	</figure>
-	{{- end }}
-	{{- with .Site.Author.name }}
-	<div class="authorbox__header">
-		<span class="authorbox__name">{{ T "authorbox_name" (dict "Name" .) }}</span>
-	</div>
-	{{- end }}
-	{{- with .Site.Author.bio }}
-	<div class="authorbox__description">
-		{{ . | markdownify }}
-	</div>
+
+	{{- if .Params.authors }}
+		{{- range .Params.authors }}
+			{{- $author := index site.Data.authors . }}
+			<div class="authorbox__author">
+				{{- with $author.avatar }}
+					<figure class="authorbox__avatar">
+						<img alt="{{ $author.name }} avatar" src="{{ . | relURL }}" class="avatar" height="90" width="90">
+					</figure>
+				{{- end }}
+				{{- with $author.name }}
+					<div class="authorbox__header">
+						<span class="authorbox__name">{{ . }}</span>
+					</div>
+				{{- end }}
+				{{- with $author.bio }}
+					<div class="authorbox__description">
+						{{ . | markdownify }}
+					</div>
+				{{- end }}
+				{{- with $author.social.linkedin }}
+					<div class="authorbox__social">
+						<a href="{{ . }}" target="_blank">LinkedIn</a>
+					</div>
+				{{- end }}
+			</div>
+		{{- end }}
 	{{- end }}
 </div>
 {{- end }}

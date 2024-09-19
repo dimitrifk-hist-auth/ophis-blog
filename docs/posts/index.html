@@ -107,7 +107,33 @@
 <main class="main list" role="main">
 	<header class="main__header">
 		<h1 class="main__title">Posts</h1>
+	</header><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/posts/first-post/" rel="bookmark">
+			First Post
+			</a>
+		</h2>
+		
 	</header>
+	<div class="content list__excerpt post__content clearfix">
+		<p>Αυτό το άρθρο είναι μία δοκιμή.</p>
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/posts/second-post/" rel="bookmark">
+			Second Post
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		
+	</div>
+</article>
 </main>
 
 
@@ -119,6 +145,15 @@
 		<input class="widget-search__submit" type="submit" value="Search">
 		<input type="hidden" name="sitesearch" value="http://localhost:1313/">
 	</form>
+</div>
+<div class="widget-recent widget">
+	<h4 class="widget__title">Recent Posts</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/posts/first-post/">First Post</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/second-post/">Second Post</a></li>
+		</ul>
+	</div>
 </div>
 <div class="widget-social widget">
 	<h4 class="widget-social__title widget__title">Social</h4>
