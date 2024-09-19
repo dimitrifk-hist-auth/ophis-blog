@@ -518,6 +518,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 	font-weight: 700;
 	color: #fff;
 	text-transform: uppercase;
+	text-decoration: none;
 }
 
 .menu__link:hover {
@@ -578,12 +579,12 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 .sub-menu {
 	display: none; /* Hide sub-menu by default */
 	position: absolute;
-	left: 0;
+	left: 49%;
 	top: 100%;
 	list-style: none;
 	padding: 0;
 	margin: 0;
-	background: #fff;
+	background: #4A180C;
 	border: 1px solid #ddd;
   }
   
@@ -593,10 +594,12 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
   
   .sub-menu__item {
 	padding: 10px;
+	color: #4A180C;
   }
   
   .sub-menu__link {
 	text-decoration: none;
+	color: #FFF;
   }
 
 /* Posts/Pages */
@@ -1089,6 +1092,11 @@ textarea {
 
 .widget:last-child {
 	margin-bottom: 0;
+}
+
+.widget__link {
+
+	color: #4A180C;
 }
 
 .widget__title {
