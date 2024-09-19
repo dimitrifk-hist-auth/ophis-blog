@@ -6,15 +6,34 @@
 	<ul class="menu__list">
 		{{- $currentNode := . }}
 		{{- range .Site.Menus.main }}
-		{{- if .Name }}
-		<li class="menu__item{{ if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} menu__item--active{{ end }}">
-			<a class="menu__link" href="{{ .URL }}">
-				{{ .Pre }}
-				<span class="menu__text">{{ .Name }}</span>
-				{{ .Post }}
-			</a>
-		</li>
-		{{- end }}
+			{{- if .HasChildren }}
+				<li class="menu__item{{ if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} menu__item--active{{ end }} menu-item-has-children">
+					<a class="menu__link" href="{{ .URL }}">
+						{{ .Pre }}
+						<span class="menu__text">{{ .Name }}</span>
+						{{ .Post }}
+					</a>
+					<ul class="sub-menu">
+						{{- range .Children }}
+							<li class="sub-menu__item">
+								<a class="sub-menu__link" href="{{ .URL }}">
+									{{ .Pre }}
+									<span class="sub-menu__text">{{ .Name }}</span>
+									{{ .Post }}
+								</a>
+							</li>
+						{{- end }}
+					</ul>
+				</li>
+			{{- else }}
+				<li class="menu__item{{ if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} menu__item--active{{ end }}">
+					<a class="menu__link" href="{{ .URL }}">
+						{{ .Pre }}
+						<span class="menu__text">{{ .Name }}</span>
+						{{ .Post }}
+					</a>
+				</li>
+			{{- end }}
 		{{- end }}
 	</ul>
 </nav>

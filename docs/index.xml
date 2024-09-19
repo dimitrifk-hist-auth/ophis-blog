@@ -6,8 +6,15 @@
     <description>Recent content on ΟΦΙΣ</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 16 Sep 2024 21:40:40 +0300</lastBuildDate>
+    <lastBuildDate>Thu, 19 Sep 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Σχετικά με εμάς</title>
+      <link>http://localhost:1313/about-us/</link>
+      <pubDate>Thu, 19 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about-us/</guid>
+      <description>&lt;p&gt;Η ΟΦΙΣ (Ομάδα Φοιτητ@ν ΙΣτορίας) είναι μια ομάδα προπτυχιακών φοιτητ@ν του τμήματος Ιστορίας και Αρχαιολογίας του ΑΠΘ. Στόχος της ομάδας είναι να προάγουμε την επικοινωνία και τις κοινωνικές σχέσεις μεταξύ των φοιτητ@ν, να καλλιεργούμε τις συζητήσεις, να ανταλλάσσουμε ιδέες και να οργανώνουμε δραστηριότητες που ανατρέφουν το πάθος για την ιστορία.&lt;/p&gt;&#xA;&lt;p&gt;Είναι προτεραιότητα μας να διατηρούμε μία χαλαρή, φιλική, και ασφαλή ατμόσφαιρα, ανοιχτή και φιλόξενη προς κάθε προπτυχιακό φοιτητ@ που ενδιαφέρεται για τη δράση της.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>First Post</title>
       <link>http://localhost:1313/posts/first-post/</link>

@@ -44,23 +44,47 @@ publishDir = "docs"
 [menu]
   [[menu.main]]
     name = "ΣΧΕΤΙΚΑ ΜΕ ΕΜΑΣ"
-    url = "/"
+    url = "/about-us/"
     weight = 1
 
   [[menu.main]]
     name = "ΕΡΕΥΝΑ"
-    url = "/"
+    url = "/research/"
     weight = 2
 
   [[menu.main]]
     name = "ΕΠΙΚΑΙΡΟΤΗΤΑ"
-    url = "/"
+    url = "/current-affairs/"
     weight = 3
 
   [[menu.main]]
     name = "ΚΡΙΤΙΚΕΣ"
-    url = "/"
+    url = "/reviews/"
     weight = 4
+
+      [[menu.main]]
+      name = "ΒΙΒΛΙΑ"
+      url = "/reviews/books"
+      parent = "ΚΡΙΤΙΚΕΣ"
+      weight = 1
+
+      [[menu.main]]
+      name = "ΑΡΘΡΑ"
+      url = "/reviews/articles"
+      parent = "ΚΡΙΤΙΚΕΣ"
+      weight = 2
+
+      [[menu.main]]
+      name = "ΤΑΙΝΙΕΣ / ΣΕΙΡΕΣ"
+      url = "/reviews/films-shows/"
+      parent = "ΚΡΙΤΙΚΕΣ"
+      weight = 3
+
+      [[menu.main]]
+      name = "ΝΤΟΚΙΜΑΝΤΕΡ"
+      url = "/documentaries/"
+      parent = "ΚΡΙΤΙΚΕΣ"
+      weight = 4
 
   [[menu.main]]
     name = "ΣΦΗΝΑΚΙΑ ΙΣΤΟΡΙΑΣ"

@@ -574,6 +574,31 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 	}
 }
 
+/* Sub-menu Styles */
+.sub-menu {
+	display: none; /* Hide sub-menu by default */
+	position: absolute;
+	left: 0;
+	top: 100%;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	background: #fff;
+	border: 1px solid #ddd;
+  }
+  
+  .menu-item-has-children:hover .sub-menu {
+	display: block; /* Show sub-menu on hover */
+  }
+  
+  .sub-menu__item {
+	padding: 10px;
+  }
+  
+  .sub-menu__link {
+	text-decoration: none;
+  }
+
 /* Posts/Pages */
 .post__header,
 .main__header {
@@ -831,6 +856,10 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 
 .toc__menu a:hover {
 	text-decoration: underline;
+}
+
+.post__toc {
+	display: none;
 }
 
 /* Author Box */
