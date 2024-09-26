@@ -1276,10 +1276,33 @@ textarea {
 		text-align: center;
 	}
 }
-
+/*Mobile breakpoint, from 767 forth it's tablet and desktop*/
 @media screen and (max-width: 767px) {
 	.wrapper {
 		display: block;
+	}
+
+	.menu__btn {
+		background: #4A180C;
+		display: flex;
+		align-items: center;
+		border: none;
+		cursor: pointer;
+		font-size: 16px;
+		
+	}
+
+	.menu__btn-title {
+		
+		order: 2;
+	}
+
+	/* Hamburger icon styles */
+	.menu__icon {
+	margin-left: 10px;
+	display: inline-flex;
+	align-items: center; 
+	order: 1;
 	}
 
 	.sidebar {
@@ -1290,15 +1313,27 @@ textarea {
 
 	.logo {
 		text-align: center;
+		flex-wrap: nowrap;
+		flex-direction: row;
+		padding: 20px 5px 20px 5px;
 	}
 
 	.logo__link {
-		margin: 0 auto;
+		margin: 0px;
+		width: 100%;
 	}
 
 	.logo__title {
 		font-size: 24px;
 		font-size: 1.5rem;
+	}
+
+	.logo__tagline {
+		font-size: .7rem;
+	}
+
+	.logo--mixed .logo__img {
+		max-width: 100px;
 	}
 
 	.sidebar {
