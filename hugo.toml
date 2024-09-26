@@ -9,7 +9,7 @@ publishDir = "docs"
   description = "H ΟΦΙΣ είναι μια φοιτητική ομάδα του Τμήματος Ιστορίας και Αρχαιολογίας του Αριστοτελείου Πανεπιστημίου Θεσσαλονίκης (ΑΠΘ). Το ιστολόγιό μας περιλαμβάνει συζητήσεις, άρθρα και γνώμες πάνω σε ιστορικά θέματα, με στόχο να καλλιεργήσουμε ένα βαθύτερο ενδιαφέρον για την ιστορία και να δημιουργήσουμε ένα χώρο για τις φωνές και τις ιδέες των φοιτητών." # Site description. Used in meta description
   #copyright = "ΟΦΙΣ" # copyright holder, otherwise will use site title
   opengraph = true # Enable OpenGraph if true
-  readmore = false # Show "Read more" button in list if true
+  readmore = true # Show "Read more" button in list if true
   authorbox = true # Show authorbox at bottom of pages if true
   toc = true # Enable Table of Contents
   post_navigation = true # Show post navigation at bottom of pages if true
@@ -26,7 +26,7 @@ publishDir = "docs"
   list = "left"  # Configure layout for list pages
   single = false # Configure layout for single pages
   # Enable widgets in given order
-  widgets = ["search", "recent", "categories", "taglist", "social"]
+  widgets = ["recent", "categories", "taglist", "social"]
 
 [Params.widgets]
   recent_num = 5 # Set the number of articles in the "Recent articles" widget

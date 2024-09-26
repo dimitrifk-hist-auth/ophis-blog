@@ -548,6 +548,50 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 	transition: visibility .15s ease, transform .15s ease, -webkit-transform .15s ease;
 }
 
+/* Style for the search button */
+.search__btn {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+/* Style for search modal */
+.search-modal {
+    display: none;
+    position: fixed;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 9999;
+}
+
+.search-form {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.search-input {
+    padding: 10px;
+    font-size: 18px;
+    width: 300px;
+}
+
+.search-submit {
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: white;
+    border: none;
+    color: black;
+}
+
+
 @media screen and (min-width: 767px) {
 	.menu {
 	}
