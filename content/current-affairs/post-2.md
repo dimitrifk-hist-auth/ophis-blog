@@ -1,6 +1,10 @@
 +++
-title = 'Post 1'
+title = 'Post 2'
 date = 2024-09-28T18:15:18+03:00
 draft = true
 author = "Author 1"
+category = "Επικαιρότητα"
+tags = ["tag1", "tag2", "tag3"]
+image = "images/skye-scotland.jpeg"  # Ensure the image path is relative to the static folder
+summary = "A brief summary of your article goes here."
 +++

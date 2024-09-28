@@ -162,59 +162,87 @@
 			<div class="primary">
 			
 <main class="main list" role="main">
-	<article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/history-shots/post-1/" rel="bookmark">
-			Post 1
-			</a>
-		</h2>
-		
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		
-	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/current-affairs/post-2/" rel="bookmark">
-			Post 1
-			</a>
-		</h2>
-		
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		
-	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/reviews/post-3/" rel="bookmark">
-			Post 1
-			</a>
-		</h2>
-		
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		
-	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/research/draft-test/" rel="bookmark">
-			Draft Test
-			</a>
-		</h2>
-		
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		
-	</div>
+	<article class="card" style="width: 50rem; height: 20rem;">
+    <div class="card__image" style="background-image: url('images/skye-scotland.jpeg');">
+        <div class="card__info">
+			<p class="card__category">Επικαιρότητα</p>
+            <h2 class="card__title">
+                <a href="/current-affairs/post-2/" rel="bookmark">Post 2</a>
+            </h2>
+            <p class="card__author">By Author 1</p>
+            <p class="card__tags">
+                
+                    <span class="tag">tag1</span>
+                
+                    <span class="tag">tag2</span>
+                
+                    <span class="tag">tag3</span>
+                
+            </p>
+        </div>
+    </div>
+    <div class="content card__excerpt post__content clearfix">
+        A brief summary of your article goes here.
+    </div>
 </article>
+<article class="card" style="width: 50rem; height: 20rem;">
+    <div class="card__image" style="background-image: url('images/5617308.webp');">
+        <div class="card__info">
+			<p class="card__category">Σφηνάκια Ιστορίας</p>
+            <h2 class="card__title">
+                <a href="/history-shots/post-1/" rel="bookmark">Post 2</a>
+            </h2>
+            <p class="card__author">By Author 1</p>
+            <p class="card__tags">
+                
+                    <span class="tag">tag1</span>
+                
+                    <span class="tag">tag2</span>
+                
+                    <span class="tag">tag3</span>
+                
+            </p>
+        </div>
+    </div>
+    <div class="content card__excerpt post__content clearfix">
+        A brief summary of your article goes here.
+    </div>
+</article>
+<article class="card" style="width: 50rem; height: 20rem;">
+    <div class="card__image" style="background-image: url('');">
+        <div class="card__info">
+			<p class="card__category"></p>
+            <h2 class="card__title">
+                <a href="/reviews/post-3/" rel="bookmark">Post 1</a>
+            </h2>
+            <p class="card__author">By Author 1</p>
+            <p class="card__tags">
+                
+            </p>
+        </div>
+    </div>
+    <div class="content card__excerpt post__content clearfix">
+        
+    </div>
+</article>
+<article class="card" style="width: 50rem; height: 20rem;">
+    <div class="card__image" style="background-image: url('');">
+        <div class="card__info">
+			<p class="card__category"></p>
+            <h2 class="card__title">
+                <a href="/research/draft-test/" rel="bookmark">Draft Test</a>
+            </h2>
+            <p class="card__author">By Author 1</p>
+            <p class="card__tags">
+                
+            </p>
+        </div>
+    </div>
+    <div class="content card__excerpt post__content clearfix">
+        
+    </div>
+</article>
+
 </main>
 
 
@@ -224,11 +252,19 @@
 	<h4 class="widget__title">Recent Posts</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
-			<li class="widget__item"><a class="widget__link" href="/history-shots/post-1/">Post 1</a></li>
-			<li class="widget__item"><a class="widget__link" href="/current-affairs/post-2/">Post 1</a></li>
+			<li class="widget__item"><a class="widget__link" href="/current-affairs/post-2/">Post 2</a></li>
+			<li class="widget__item"><a class="widget__link" href="/history-shots/post-1/">Post 2</a></li>
 			<li class="widget__item"><a class="widget__link" href="/reviews/post-3/">Post 1</a></li>
 			<li class="widget__item"><a class="widget__link" href="/research/draft-test/">Draft Test</a></li>
 		</ul>
+	</div>
+</div>
+<div class="widget-taglist widget">
+	<h4 class="widget__title">Tags</h4>
+	<div class="widget__content">
+		<a class="widget-taglist__link widget__link btn" href="/tags/tag1/" title="Tag1">Tag1</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/tag2/" title="Tag2">Tag2</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/tag3/" title="Tag3">Tag3</a>
 	</div>
 </div>
 <div class="widget-social widget">
@@ -274,7 +310,11 @@
 </footer>
 	</div>
 <script async defer src="/js/menu.js"></script>
+
 <script src="/js/search.js"></script>
+
+<script src="https://unpkg.com/lunr/lunr.js"></script>
+
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 

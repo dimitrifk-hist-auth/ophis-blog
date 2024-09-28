@@ -1,26 +1,26 @@
-<article class="list__item post">
-	{{ partial "post_thumbnail.html" (dict "class" "list" "page" .) }}
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="{{ .RelPermalink }}" rel="bookmark">
-			{{ .Title }}
-			</a>
-		</h2>
-		{{- with .Params.lead }}
-		<p class="list__lead post__lead">{{ . }}</p>
-		{{- end }}
-		{{ with partial "post_meta.html" . -}}
-		<div class="list__meta meta">{{ . }}</div>
-		{{- end }}
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		{{ .Summary }}
-	</div>
-	{{- if .Site.Params.readmore }}
-	{{- if .Truncated }}
-	<div class="list__footer clearfix">
-		<a class="list__footer-readmore btn" href="{{ .RelPermalink }}">{{ T "read_more" }}</a>
-	</div>
-	{{- end }}
-	{{- end }}
+<article class="card" style="width: 50rem; height: 20rem;">
+    <div class="card__image" style="background-image: url('{{ .Params.image }}');">
+        <div class="card__info">
+			<p class="card__category">{{ .Params.category }}</p>
+            <h2 class="card__title">
+                <a href="{{ .RelPermalink }}" rel="bookmark">{{ .Title }}</a>
+            </h2>
+            <p class="card__author">By {{ .Params.author }}</p>
+            <p class="card__tags">
+                {{ range .Params.tags }}
+                    <span class="tag">{{ . }}</span>
+                {{ end }}
+            </p>
+        </div>
+    </div>
+    <div class="content card__excerpt post__content clearfix">
+        {{ .Summary }}
+    </div>
+    {{- if .Site.Params.readmore }}
+        {{- if .Truncated }}
+            <div class="list__footer clearfix">
+                <a class="list__footer-readmore btn" href="{{ .RelPermalink }}">{{ T "read_more" }}</a>
+            </div>
+        {{- end }}
+    {{- end }}
 </article>
