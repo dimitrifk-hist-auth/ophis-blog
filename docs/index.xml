@@ -6,34 +6,34 @@
     <description>Recent content on ΟΦΙΣ</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 19 Sep 2024 21:19:07 +0300</lastBuildDate>
+    <lastBuildDate>Sat, 28 Sep 2024 18:15:50 +0300</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>&#34;Σφηνάκια Ιστορίας&#34;</title>
-      <link>http://localhost:1313/history-shots/</link>
-      <pubDate>Thu, 19 Sep 2024 21:19:07 +0300</pubDate>
-      <guid>http://localhost:1313/history-shots/</guid>
+      <title>Post 1</title>
+      <link>http://localhost:1313/history-shots/post-1/</link>
+      <pubDate>Sat, 28 Sep 2024 18:15:50 +0300</pubDate>
+      <guid>http://localhost:1313/history-shots/post-1/</guid>
       <description></description>
     </item>
     <item>
-      <title>Επικαιρότητα</title>
-      <link>http://localhost:1313/current-affairs/</link>
-      <pubDate>Thu, 19 Sep 2024 21:19:07 +0300</pubDate>
-      <guid>http://localhost:1313/current-affairs/</guid>
+      <title>Post 1</title>
+      <link>http://localhost:1313/current-affairs/post-2/</link>
+      <pubDate>Sat, 28 Sep 2024 18:15:18 +0300</pubDate>
+      <guid>http://localhost:1313/current-affairs/post-2/</guid>
       <description></description>
     </item>
     <item>
-      <title>Έρευνα</title>
-      <link>http://localhost:1313/research/</link>
-      <pubDate>Thu, 19 Sep 2024 21:19:07 +0300</pubDate>
-      <guid>http://localhost:1313/research/</guid>
+      <title>Post 1</title>
+      <link>http://localhost:1313/reviews/post-3/</link>
+      <pubDate>Sat, 28 Sep 2024 18:15:03 +0300</pubDate>
+      <guid>http://localhost:1313/reviews/post-3/</guid>
       <description></description>
     </item>
     <item>
-      <title>Κριτικές</title>
-      <link>http://localhost:1313/reviews/</link>
-      <pubDate>Thu, 19 Sep 2024 21:19:07 +0300</pubDate>
-      <guid>http://localhost:1313/reviews/</guid>
+      <title>Draft Test</title>
+      <link>http://localhost:1313/research/draft-test/</link>
+      <pubDate>Sat, 28 Sep 2024 17:32:33 +0300</pubDate>
+      <guid>http://localhost:1313/research/draft-test/</guid>
       <description></description>
     </item>
     <item>
@@ -42,20 +42,6 @@
       <pubDate>Thu, 19 Sep 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/about-us/</guid>
       <description>&lt;p&gt;Η ΟΦΙΣ (Ομάδα Φοιτητ@ν ΙΣτορίας) είναι μια ομάδα προπτυχιακών φοιτητ@ν του τμήματος Ιστορίας και Αρχαιολογίας του ΑΠΘ. Στόχος της ομάδας είναι να προάγουμε την επικοινωνία και τις κοινωνικές σχέσεις μεταξύ των φοιτητ@ν, να καλλιεργούμε τις συζητήσεις, να ανταλλάσσουμε ιδέες και να οργανώνουμε δραστηριότητες που ανατρέφουν το πάθος για την ιστορία.&lt;/p&gt;&#xA;&lt;p&gt;Είναι προτεραιότητα μας να διατηρούμε μία χαλαρή, φιλική, και ασφαλή ατμόσφαιρα, ανοιχτή και φιλόξενη προς κάθε προπτυχιακό φοιτητ@ που ενδιαφέρεται για τη δράση της.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Τίτλος Άρθρου</title>
-      <link>http://localhost:1313/posts/first-post/</link>
-      <pubDate>Mon, 16 Sep 2024 21:40:40 +0300</pubDate>
-      <guid>http://localhost:1313/posts/first-post/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/skye-scotland.jpeg&#34; alt=&#34;Alt text for the image&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Αυτό το άρθρο είναι μία δοκιμή.&lt;/p&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla posuere, massa eu dignissim porttitor, justo nulla lobortis metus, nec sodales felis nisl nec felis. Vestibulum a magna augue. Duis ornare, massa a accumsan volutpat, mi libero placerat sem, vel fringilla libero nibh non leo. Maecenas sit amet cursus dui, in pretium arcu. Fusce ac nibh aliquet, ullamcorper dolor sed, pulvinar dolor. Ut neque massa, euismod at auctor eget, condimentum in leo. Integer ligula libero, sollicitudin at venenatis vitae, vestibulum eu nisi. Phasellus gravida dignissim erat a porttitor. Aliquam tristique dui sed dolor ultricies, eu tincidunt metus malesuada. Donec congue at nisi id eleifend.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Τίτλος Άρθρου</title>
-      <link>http://localhost:1313/posts/second-post/</link>
-      <pubDate>Mon, 16 Sep 2024 21:40:40 +0300</pubDate>
-      <guid>http://localhost:1313/posts/second-post/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/5617308.webp&#34; alt=&#34;Alt text for the image&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla posuere, massa eu dignissim porttitor, justo nulla lobortis metus, nec sodales felis nisl nec felis. Vestibulum a magna augue. Duis ornare, massa a accumsan volutpat, mi libero placerat sem, vel fringilla libero nibh non leo. Maecenas sit amet cursus dui, in pretium arcu. Fusce ac nibh aliquet, ullamcorper dolor sed, pulvinar dolor. Ut neque massa, euismod at auctor eget, condimentum in leo. Integer ligula libero, sollicitudin at venenatis vitae, vestibulum eu nisi. Phasellus gravida dignissim erat a porttitor. Aliquam tristique dui sed dolor ultricies, eu tincidunt metus malesuada. Donec congue at nisi id eleifend.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

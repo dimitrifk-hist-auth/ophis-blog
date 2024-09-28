@@ -14,7 +14,8 @@ publishDir = "docs"
   toc = true # Enable Table of Contents
   post_navigation = true # Show post navigation at bottom of pages if true
   # post_meta = ["date", "categories"] # Order of post meta information. Use ["none"] to turn off completely.
-  postSections = ["post"] # the section pages to show on home page and the "Recent articles" widget
+  postSections = ["research", "current-affairs", "reviews", "history-shots"] # the section pages to show on home page and the "Recent articles" widget
+  mainSections = ["research", "current-affairs", "reviews", "history-shots"]
   #postSections = ["blog", "news"] # alternative that shows more than one section's pages
   #dateformat = "23-01-2006" # change the format of dates
 
